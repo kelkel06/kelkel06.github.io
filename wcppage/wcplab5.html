@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sign-Up</title>
+</head>
+
+<body>
+	<h1>Sign-Up form for food Blog</h1>
+<p>This form will be used to create an account and collect information for Visitors to the food Blog</p>
+	<form method="post" action="https://handlers.education.launchcode.org/request-parrot">
+	<label for="Firstname">First Name:</label>
+	<input name="fname" type="text" required="required" id="fname">
+		<br>
+		<label for="Lastname">Last Name:</label>
+	<input name="lname" type="text" required="required" id="lname">
+		<br>
+		<label for="username">Username:</label>
+		<input name="username" type="text" required="required" id="username">
+		<br>
+		<label for="password">Password:</label>
+		<input for="password" type="password" required="required" id="password" pattern="{8-12}">
+		<br>
+		<label for="dob">Date of Birth:</label>
+		<input name="dob" type="date" required="required" id="date">
+		<br>
+		<label for="number">Phone Number:</label>
+		<input name="number" type="number" required="required" id="Number">
+		<br>
+		<label for="email">Email:</label>
+		<input name="email" type="email" requierd="required" id="email">
+		<br>
+		<label for="personalwebsite">Personal Website:</label>
+		<input name="personalwebsite" type="url" id="pwebsite">
+		<br>
+		<p>Interests:</p>
+		<input type="checkbox" id="music" name="Music" value="interest1">
+		<label for="interest1">Music</label>
+		<br>
+		<input type="checkbox" id="basketball" name="basketball" value="interest2">
+		<label for="interest2">Basketball</label>
+		<br>
+		<input type="checkbox" id="Sports" name="sports" value="interest3">
+		<label for="interest3">Sports</label>
+		<br>
+		<input type="checkbox" id="Art" name="Art" value="interest4">
+		<label for="interest4">Art</label>
+		<br>
+		<p>Where did you hear about this site?</p>
+		
+		<input type="radio" id="hear1" name="hear1" value="Site1">
+		<label for="hear1">Email</label>
+		<br>
+		<input type="radio" id="hear2" name="hear2" value="Site2">
+		<label for="hear2">Text message</label>
+		<br>
+		<input type="radio" id="hear3" name="hear3" value="Site3">
+		<label for="hear1">From a friend</label>
+		<br>
+		<input type="radio" id="hear4" name="hear4" value="Site4">
+		<label for="hear1">Advertisement</label>
+		<br>	   
+		<button>submit</button>
+		<button>reset</button>
+	</form>
+	
+</body>
+</html>
